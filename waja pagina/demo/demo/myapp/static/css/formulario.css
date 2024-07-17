@@ -1,0 +1,68 @@
+.abody {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/253/638/452/light-background-hd-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.abody h1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}
+
+.form-register {
+    background-color: #0d0a0a4b;
+    border: 2px solid #FFF;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.form__titulo {
+    text-align: center;
+}
+
+.contenedor-inputs input {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    outline: none;
+    background-color: transparent; 
+    color: #FFF; 
+}
+
+.btn-enviar {
+    width: 100%; 
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(252, 0, 0, 0.915);
+    color: white;
+    cursor: pointer;
+    margin:  10px;
+}
+
+.form__link {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.form__link a {
+    color: white;
+}
+
+.form__link a:hover {
+    color: red;
+}

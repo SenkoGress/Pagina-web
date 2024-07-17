@@ -1,0 +1,89 @@
+body {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/253/638/452/light-background-hd-wallpaper-preview.jpg);
+    background-color: aliceblue;
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*BARRA DE MENU*/
+
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: #ffffff !important;/*BARRA*/
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #020202; /* TEXTO */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #000000; /* TEXTO AL PASAR EL MOUS POR ENCIMA */
+}
+
+
+
+
+
+
+
+.product-container {
+    margin-bottom: 20px;/*ESTO ES EL TAMAÑO DEL BORDE DEL PRODUCTO*/
+}
+
+.product-image {
+    transform: rotate(-10deg);/*AQUI LE ESTOY DANDO ESE EFECTO DE GIRO A LA IMAGEN*/
+}
+
+#cart-count {
+    margin-left: 5px;/*ESTO APLICA LA DISTANCIA ENTRE LAS IMAJENES*/
+}
+
+#carrito-section {
+    margin-top: 5cm;/*ESTO ES LA SEPARACION DEL ITULO CARRITO DE COMPRAS DE LAS IMAJENES DE LOS PRODUCTOS*/
+}
+
+#carrito-section h3,
+#carrito-section h4,
+#carrito-section button {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.footer {
+    background-color: #ffffff;
+    height: 3cm;
+    width: 100%;
+    text-align: center;
+    margin-top: 5cm; 
+    padding-top: 1cm; 
+}
+
+/* COLORES PARA LOS BOTONES DE COMPRAR, ELIMINAR Y AÑADIR AL CARRITO*/
+
+/*BOTON DE COMPRAR*/
+
+.btn-success.btn-success {
+    background-color: #28a745; /* COLOR DEL FONDO DEL BOTON */
+    border-color: #28a745; /* COLOR DEL BORDE DEL BOTON */
+
+}
+
+/*BOTON DE ELIMINAR*/
+
+.btn-danger {
+    background-color: #4CAF50; /* COLOR DEL FONDO DEL BOTON */ 
+    border-color: #4CAF50; /* COLOR DEL BORDE DEL BOTON  */
+}
+
+
+/*BOTON DE AÑADIR AL CARRITO*/
+
+.add-to-cart {
+    background-color: #00ff04; /* Cambia el color del botón */
+    border-color: #ffffff; /* Borde del botón */
+    color: #ffffff; /* Texto del botón */
+}
+

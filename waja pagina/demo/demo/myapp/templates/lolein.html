@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/Formulario.css' %}">
+    <script scr="a.js"></script>
+</head>
+<body class="abody">
+    <h1>Formulario de registro</h1>
+    <form action="lolein.html" method="post" class="form-register" onsubmit="return validar();">
+        <h2 class="form__titulo">Crea una Cuenta</h2>
+        
+        <div class="contenedor-inputs">
+            {% csrf_token %} {{ registro.as_p }}
+            <!-- <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="input-48" required>
+            <div></div>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" class="input-48" required>
+            <div></div>
+            <input type="email" id="correo" name="correo" placeholder="Correo" class="input-100" required>
+            <div></div>
+            <input type="text" id="usuario" name="usuario" placeholder="Usuario" class="input-48" required>
+            <div></div>
+            <input type="password" id="clave" name="clave" placeholder="Clave" class="input-48" required>
+            <div></div>
+            <input type="text" id="telefono" name="telefono" placeholder="Telefono" class="input-100" required>
+            <div></div> -->
+            <!-- <input type="submit" value="Registrar" class="btn-enviar"> -->
+            <button class="btn-enviar" type="submit"> Registrarse</button>
+            <P class="form__link">¿Ya tienes una cuenta <a href="log.html">ingresa aqui</a></P>
+            <a href="waja.html">volver al incio</a>
+            {{ mesg }}
+        </div>
+    </form>
+</body>
+</html>

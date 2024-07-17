@@ -1,0 +1,64 @@
+.abody {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/253/638/452/light-background-hd-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.sesion {
+    background-color: #0d0a0a72;
+    border: 2px solid #FFF;
+    border-radius: 50px;
+    padding: 50px;
+}
+
+.Iniciar {
+    text-align: center;
+}
+
+.contac {
+    margin-bottom: 10px;
+}
+
+.contac input {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    border-radius: 40px;
+    border: 1px solid #ccc;
+    outline: none;
+    background-color: transparent; 
+    color: #FFF;
+}
+
+.contac input:focus {
+    border-color: #FFF; 
+}
+
+.contac span {
+    display: block;
+    margin-bottom: 30px;
+    color: #FFF; 
+}
+
+.contac i {
+    position: absolute;
+    margin: 10px;
+    color: #FFF; 
+    
+}
+
+.abody h1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}
+

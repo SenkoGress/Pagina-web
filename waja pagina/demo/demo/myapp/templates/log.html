@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/log.css' %}">
+    <script scr="a.js"></script>
+</head>
+<body class="abody">
+    <h1>Formulario de inicio de sesion</h1>
+    <form action="log.html" method="post" class="form-register" onsubmit="return validar();">
+        <h2 class="form__titulo">iniciar sesion</h2>
+        <div class="contenedor-inputs">
+            {% csrf_token %} {{ form.as_p }}
+
+            <input type="submit" value="Registrar" class="btn-enviar">
+            <P class="form__link">¿no tienes cuenta? <a href="lolein.html">crea tu cuenta aqui</a></P>
+            <a href="waja.html">volver al incio</a>       
+        </div>
+    </form>
+</body>
+</html>

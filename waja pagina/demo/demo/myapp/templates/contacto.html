@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+    <link rel="stylesheet" href="{% static 'css/contacto.css' %}">
+</head>
+<body class="abody">
+    <div class="sesion">
+        <div class="Iniciar">
+            <h2> Contacto</h2>
+            <div></div>
+            <div class="contac">
+                <input type="text" required="required" />
+                <i class="far fa-user"></i>
+                <span>Nombre</span>
+            </div>
+            <div class="contac">
+                <input type="text" required="required" />
+                <i class="far fa-envelope"></i> 
+                <span>Correo </span>
+            </div>
+            <div class="contac">
+                <input type="password" required="required" />
+                <i class="fas fa-lock"></i>
+                <span>Telefono</span>
+            </div>
+            <div class="contac">
+                <input type="password" required="required" />
+                <i class="fas fa-lock"></i>
+                <span> Asunto</span>
+            </div>
+            <div class="contac">
+                <input type="submit" value="enviar solicitud" />
+            
+                <div></div>
+                <a href="waja.html">volver al inicio</a>
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+.loginbody {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/253/638/452/light-background-hd-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #0d0a0a4b;
+    border: 2px solid #FFF;
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+}
+
+.Iniciar_sesion {
+    text-align: center;
+}
+
+.inputBox {
+    margin-bottom: 15px;
+}
+
+.inputBox input {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    background-color: transparent; 
+    color: #FFF; 
+}
+
+.inputBox input:focus {
+    border-color: #FFF; 
+}
+
+.inputBox span {
+    display: block;
+    margin-bottom: 5px;
+    color: #FFF; 
+}
+
+.inputBox i {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 15px;
+    color: #FFF; 
+}
